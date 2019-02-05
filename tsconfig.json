@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "sourceMap": true,
+        "strict": true,
+        "strictPropertyInitialization": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "es6",
+        "isolatedModules": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": false,
+        "strictNullChecks": true,
+        "importHelpers": true,
+        "listFiles": false,
+        "removeComments": false,
+        "suppressImplicitAnyIndexErrors": true,
+        "allowJs": true,
+        "lib": ["es2015", "es2016", "es2017", "dom"],
+        "baseUrl": "."
+    },
+    "include": ["src", "types"],
+    "exclude": ["node_modules", "dist"]
+}

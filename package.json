@@ -1,0 +1,10 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "LeetCode Solutions",
+  "author": "xiaoboost",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.3.1"
+  }
+}

@@ -9,10 +9,10 @@
  *
  * @category
  *   algorithms
- * 
+ *
  * @difficulty
  *   Easy
- * 
+ *
  * @description
  * You're given strings J representing the types of stones that are jewels, and S representing the stones you have.  Each character in S is a type of stone you have.  You want to know how many of the stones you have are also jewels.
  *
@@ -29,7 +29,7 @@
  * @note
  * S and J will consist of letters and have length at most 50.
  * The characters in J are distinct.
- * 
+ *
  * @solution
  *   本题实质上就是求 J 字符串每个字符在 S 字符串中的出现次数之和（区分大小写）。
  */

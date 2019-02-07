@@ -2,6 +2,8 @@
     "defaultSeverity": "error",
     "extends":"tslint:recommended",
     "rules": {
+        // 并不强制使用 for of
+        "prefer-for-of": false,
         // 允许使用 function 函数声明
         "only-arrow-functions": false,
         // 允许使用 namespace

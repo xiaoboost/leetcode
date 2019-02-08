@@ -88,5 +88,3 @@ const toLowerCase3 = function(str: string) {
 
     return result;
 };
-
-console.log(toLowerCase2('LOVEly'));
